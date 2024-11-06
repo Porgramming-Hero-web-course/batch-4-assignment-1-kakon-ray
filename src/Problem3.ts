@@ -1,5 +1,5 @@
 
-const countWordOccurrences = (str: string, findStr: string) => {
+const countWordOccurrences = (str: string, findStr: string):number => {
     let strToArray: string[];
     let countStr: number = 0;
 
@@ -13,7 +13,7 @@ const countWordOccurrences = (str: string, findStr: string) => {
         }
     }
 
-    console.log(countStr);
+    return countStr;
 
 }
 

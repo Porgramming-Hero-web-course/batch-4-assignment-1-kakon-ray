@@ -9,6 +9,6 @@ const countWordOccurrences = (str, findStr) => {
             countStr = countStr + 1;
         }
     }
-    console.log(countStr);
+    return countStr;
 };
 countWordOccurrences("TypeScript is great. I love TypeScript!", "typescript");
