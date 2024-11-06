@@ -1,5 +1,5 @@
-const sumArray = (array: number[]) => {
-    let arrayCount = 0;
+const sumArray = (array: number[]):number => {
+    let arrayCount:number = 0;
     let i:number;
 
 
